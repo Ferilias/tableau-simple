@@ -1,7 +1,7 @@
 package tableau;
 import java.util.Scanner;
-
-public class tableau3 {
+// Autre test exercice 4
+public class Tableau04bis {
 public static void main(String[] args)
 {
 

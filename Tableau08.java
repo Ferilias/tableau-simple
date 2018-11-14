@@ -1,22 +1,25 @@
 package tableau;
 import java.util.Scanner;
 
-public class tableau8 {
+public class Tableau08 {
 public static void main(String[] args)
 {
-
+	
+// Initialisation des variables
 int nbre = 0;
 int tailletab = 0;
 int reste = 0;
 int trois = 0;
 int no_trois = 0;
 
+// Création du tableau et scanner
 Scanner sc = new Scanner(System.in);
 System.out.println("Donnez une taille");
 tailletab = sc.nextInt();
 
 int tableauNbre[] = new int [tailletab];
 
+// boucle qui calcule les nombres multiples de 3 et les autres
 for (int i = 0; i <= tailletab - 1; i++)
 {
     System.out.println("Donnez une nombre");
